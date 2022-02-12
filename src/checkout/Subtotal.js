@@ -30,8 +30,7 @@ function Subtotal() {
         thousandSeparator={true}
         prefix={"$"}
       />
-  
-      <button onClick={e => history.push('/payment')}>Proceed to Checkout</button>
+      <button style={{cursor:'pointer'}} onClick={e => history.push('/payment')}>Proceed to Checkout</button>
     </div>
   );
 }
