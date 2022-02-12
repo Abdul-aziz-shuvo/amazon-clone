@@ -5,7 +5,7 @@ import Header from "../header/header";
 
 function Home() {
   return (
-     <> <Header/>
+     <>
     <div className="home">
       <div className="home__container">
         <img
