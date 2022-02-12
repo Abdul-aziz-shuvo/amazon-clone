@@ -8,8 +8,20 @@ function Router() {
   return  (
    <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/" element={
+                <>
+                    <Header/>
+                    <Home />
+                </>
+            }
+            />
+            <Route path="/checkout" element={
+                <>
+                    <Header/>
+                    <Checkout />
+                </>
+            }
+            />
         </Routes>
     </BrowserRouter>
   )
