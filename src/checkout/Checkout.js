@@ -10,7 +10,7 @@ function Checkout() {
 
   return (
       <>
-      <Header/>
+
      
     <div className="checkout">
       <div className="checkout__left">
